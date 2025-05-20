@@ -14,9 +14,6 @@ const products = [
   { id: 10, name: 'External Hard Drive', price: 89 },
   { id: 11, name: 'Wireless Earbuds', price: 129 },
   { id: 12, name: 'Camera', price: 599 },
-  { id: 13, name: 'Mechanical Keyboard', price: 109 },
-  { id: 14, name: 'Drone', price: 699 },
-  { id: 15, name: 'VR Headset', price: 399 }
 ];
 
 router.get('/', (req, res) => {
